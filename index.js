@@ -49,8 +49,9 @@ inquirer
         name: 'email',
       },
   ])
-  .then((response) =>
-    response.confirm === response.password
-      ? console.log('Success!')
-      : console.log('You forgot your password already?!')
-  );
+  .then((response) => {
+    const string = JSON.stringify(response);
+    const answerString = JSON.parse(string);
+    console.log(answerString);
+    const {Title, Description, Installation, Usage, Contributing, Tests, License, Github, Email} = answerString;
+  });
