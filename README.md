@@ -1,17 +1,26 @@
-# ReadME Generator 
-## Installation 
-In order to use the tool, clone the repository from GitHub into your PC and from there use NODE to start up the index.js
+# README Generator
+
 ## Description 
-This project was made for develeopers who are tired of typing their own READMEs, so they can have an automated source 
+
+This tool was created in order to automate the README creation process.
+
+![Getting Started](readme-gen.PNG)
+
+## Installation 
+In order to use this tool, clone it from the github repository and open up the index.js file in node. 
+
+https://github.com/ssangwang/README-Generator
+
 ## Usage 
-This project would be used by developers that need to create READMEs
+This tool would be used anytime a README is needed to be created
+## Questions
+--GITHUB USERNAME--
+ssangwang
+--EMAIL--
+ssangw009@umn.edu
 ## Tests 
-No tests performed.
+No tests performed. 
 ## Contributing 
-None
+No contributing Developers
 ## License
 MIT License
-## GitHub 
-undefined
-## Email 
-undefined

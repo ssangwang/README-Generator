@@ -41,12 +41,12 @@ inquirer
     {
       type: 'input',
       message: 'What is your GitHub username?',
-      name: 'github',
+      name: 'Github',
     },
     {
       type: 'input',
       message: 'What is your email?',
-      name: 'email',
+      name: 'Email',
     },
   ])
   .then((response) => {
@@ -81,11 +81,10 @@ fs.appendFile('README.md', `
 ${License}`, (err) => err ? console.error(err) : console.log('Commit logged!'))
 //GitHub
 fs.appendFile('README.md', `
-## GitHub 
-${Github}`, (err) => err ? console.error(err) : console.log('Commit logged!'))
-//Email
-fs.appendFile('README.md', `
-## Email 
+## Questions
+--GITHUB USERNAME--
+${Github}
+--EMAIL--
 ${Email}`, (err) => err ? console.error(err) : console.log('Commit logged!'))
 
   });
